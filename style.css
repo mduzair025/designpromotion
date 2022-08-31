@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@100;200;300;400;500&display=swap');
+:root{
+    --clr:#d20bdf;
+    --clrScendry:#1c1c1c;
+}
+.primary-clr{
+    color: var(--clr) !important;
+}
+.secondary-clr{
+    color: var(--clrScendry) !important;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: var(--clr);;
+}
+section.topCoupons {
+    background-image: url(https://www.promocodenow.co/assets/bg/desck-bg-dark.jpg);
+    height: 550px;
+}
+section.topCoupons {
+    background-repeat: no-repeat;
+    background-color: #cdcdcd;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top -150px;
+    position: relative;
+    padding-top: 20px;
+}
+section.banner .container {
+    width: 100%;
+}
+
+.gtOnline{
+    color: #FFFFFF;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+.gtOnline span {
+    background-color: var(--clr);
+    padding: 0 7px;
+}
+.divsearch {
+    display: block;
+    position: relative;
+    max-width: 96%;
+    margin: 0 auto;
+    width: 670px;
+}
+.divsearch .search {
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+}
+
+.divsearch .search input {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 35px;
+    display: block;
+    color: #999999;
+    float: left;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-top: 0 !important;
+    resize: none;
+    width: 100% !important;
+}
+.divsearch .search a.button {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 40px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    border-radius: 35px;
+}
+
+.button.blue:not(.withcode) {
+    color: #FFFFFF;
+    background-color: var(--clr);
+}
+.button.medium {
+    padding: 0px 40px;
+    height: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.button {
+    color: #FFFFFF;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    transition: all linear 0.2s;
+}
+.divsearch .search:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.divsearch p {
+    color: #FFFFFF;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.divsearch p a {
+    margin-left: 10px;
+}
+
+.topNavbar {
+    background: #000;
+    color: #fff;
+}
+
+.nav-text ul li:not(.nav-text ul li:nth-last-child(1)) {
+    margin-right: 40px !important;
+}
+
+.trendPromo h1, .topOfferSec h2 {
+    font-family: 'Arvo', serif;
+    font-size: 3vw;
+    text-align: center;
+}
+.promoMainBox {
+    padding: 20px;
+    /*box-shadow: 0px 1px 5px 1px rgba(202,202,202,0.75);
+    -webkit-box-shadow: 0px 1px 5px 1px rgba(202,202,202,0.75);
+    -moz-box-shadow: 0px 1px 5px 1px rgba(202,202,202,0.75);*/
+    border: 1px solid #e8e8e8;
+    display: grid;
+    justify-content: center;
+}
+.promoMainBox img {
+    width: 200px;
+}
+.promoMainBox p {
+    margin-bottom: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.promoMainBox button {
+    background: var(--clr);
+    border: navajowhite;
+    border-radius: 20px;
+    padding: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.promoMainBox:hover button {
+    transform: translateY(-5px);
+}
+.offerSec {
+    background-image: url(assets/images/bg_offer.jpg);
+    background-repeat: no-repeat;
+    background-color: #cdcdcd;
+    background-size: cover;
+    background-position: center center;
+    padding: 40px;
+} 
+
+.offermainBox {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+.offerBox {
+    border: 1px solid var(--clr);
+    box-shadow: 2px 2px 5px 4px rgba(179,179,179,0.75);
+    -webkit-box-shadow: 2px 2px 5px 4px rgba(179,179,179,0.75);
+    -moz-box-shadow: 2px 2px 5px 4px rgba(179,179,179,0.75);
+    padding: 20px;
+    transition: 0.5s;
+    background-color: #fff;
+}
+.offerBox:hover {
+    transform: rotate(-2deg);
+}
+.offerBox img {
+    width: 150px;
+}
+.offerBox  p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.topOfferBox {
+    border: 1px dashed var(--clr);
+    padding: 10px;
+
+    border-radius: 35px;
+}
+
+.topOfferBox .leftSide {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.topOfferBox .leftSide img {
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #5b5a5b;
+    object-fit: cover;
+    padding: 3px;
+    border-radius: 50%;
+}
+.topOfferBox .leftSide p {
+    font-size: 12px;
+    color: #5b5a5b;
+}
+.topOfferBox .leftSide h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.topOfferBox button {
+    background: transparent;
+    padding: 6px 16px;
+    border: 1px dashed #5b5a5b;
+    border-radius: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.topOfferBox button:hover {
+    background: var(--clr);
+    color: #fff;
+}
+.footerbgimg {
+    background: #000;
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
+}
+.footerbgimg .copyRight, .footerbgimg  .designDev  {
+    font-size: 14px;
+    color: #686868;
+}
+
+
+@media screen and (max-width:575px) {
+
+    .offermainBox {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    
+}
+@media screen and (min-width:768px) and (max-width:991px){
+
+}
+@media screen and (min-width:992px) and (max-width:1280px){
+
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: -250px;
+    /* top layer */
+    z-index: 9999;
+}
+#sidebar.active{
+    left:0;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
+
+.webcolor{
+    background-color:#24111c;
+}
